@@ -107,19 +107,20 @@
 <!-- Contacts -->
 <div id="contact" class="container">
   <h3 class="text-center">Contact</h3>
-  <p class="text-center"><em>Please contact me primarily through email or the form below, as my schedule varies due to studies.</em></p>
+  <p class="text-center"><em>Please contact me primarily through email, as my schedule varies due to studies.</em></p>
 
   <div class="row contact-details">
-    
-    <div class="col-sm-4">
+    <div class="col-sm-12 text-center">
       <p><span class="glyphicon glyphicon-map-marker"></span> Edinburgh, UK <br>
       <span class="glyphicon glyphicon-map-marker"></span> Helsinki, Finland</p>
       <p><span class="glyphicon glyphicon-phone"></span> Phone: +447566813091</p>
       <p><span class="glyphicon glyphicon-envelope"></span> Email: julie.ollikainen@gmail.com</p>
     </div>
-    
-    <!-- TODO form functionality-->
+
+<!--
     <div class="col-sm-8">
+      <form method="post" action="">
+      
       <div class="row">
         <div class="col-sm-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
@@ -128,15 +129,19 @@
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+      
+      <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5" required></textarea>
       <br>
+
       <div class="row">
         <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit" data-toggle="tooltip" title="send form">Send</button>
+          <input type="submit" class="btn pull-right" name="submit" data-toggle="tooltip" title="send form">
         </div>
       </div>
+    
+      </form>
     </div>
-  
+  -->
   </div>
 </div>
 
@@ -148,7 +153,6 @@
   <p>@ 2020 Julie Ollikainen</p>
   <p><em>"We meet no ordinary people in our lives.” – C.S. Lewis</em></p>
 </footer>
-
 
 </body>
 </html>
