@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Julie Ollikainen</title>
+
+  <!-- Bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Favicon -->
+  <link href="assets/img/favicon.ico" rel="icon">
+
+  <!-- Main CSS File -->
+  <link href="assets/style.css" rel="stylesheet">
+</head>
+
+<body id="home">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#home">Julie Ollikainen</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">home</a></li>
+        <li><a href="#aboutme">about</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#projects">cv</a></li>
+        <li><a href="#contact">contact</a></li>
+<!--    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li> (Search bar)-->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Banner -->
+<div class="banner hidden-sm hidden-xs">
+  <img src="assets/img/banner.png" alt="skyline banner">
+  <div class="banner-text">
+      <h1>Julie Ollikainen</h1>
+      <p>Java, Haskell</p>
+    </div>
+  </div>
+</div>
+
+<!-- Banner for smaller screens (no image) -->
+<div class="banner-alt hidden-md hidden-lg bg1">
+  <div class="container text-center">
+    <h3>Julie Ollikainen</h3>
+    <p>Java, Haskell</p>
+  </div>
+</div>
+
+<!-- About me  -->
+<div id="aboutme" class="container text-center">
+  <h3>About me</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> <!-- TODO about me-->
+</div>
+
+<!-- Projects -->
+<div id="projects" class="text-center bg1">
+    <div class="container">
+    <div class="projects">
+      <h3>Projects & CV</h3>
+      <p> todo </p> <!-- TODO projects -->
+    </div>
+
+    <div id="links">
+      <div class="row text-center">  
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <p><strong>CV</strong></p>
+            <p>Open pdf in new window or download as word document</p>
+            <button class="btn glyphicon glyphicon-new-window" data-toggle="tooltip" title="open in new window"></button>
+            <button class="btn glyphicon glyphicon-download-alt" data-toggle="tooltip" title="download docx"></button>
+            <!-- TODO file -->
+          </div>
+        </div>
+        
+        <div class="col-sm-6">
+          <div class="thumbnail">
+            <p><strong>Github</strong></p>
+            <p>Find the source code for some of my projects here</p>
+            <a href="https://github.com/julie-o/" target="_blank">
+              <button class="btn glyphicon glyphicon-new-window" data-toggle="tooltip" title="open in new window"></button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Contacts -->
+<div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>Please contact me primarily through email or the form below, as my schedule varies due to studies.</em></p>
+
+  <div class="row contact-details">
+    
+    <div class="col-sm-4">
+      <p><span class="glyphicon glyphicon-map-marker"></span> Edinburgh, UK <br>
+      <span class="glyphicon glyphicon-map-marker"></span> Helsinki, Finland</p>
+      <p><span class="glyphicon glyphicon-phone"></span> Phone: +447566813091</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> Email: julie.ollikainen@gmail.com</p>
+    </div>
+    
+    <!-- TODO form functionality-->
+    <div class="col-sm-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit" data-toggle="tooltip" title="send form">Send</button>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center bg1">
+  <a class="back-to-top" href="#home" data-toggle="tooltip" title="back to top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>@ 2020 Julie Ollikainen</p>
+  <p><em>"We meet no ordinary people in our lives.” – C.S. Lewis</em></p>
+</footer>
+
+
+</body>
+</html>
