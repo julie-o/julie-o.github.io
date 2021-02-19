@@ -5,6 +5,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: #1f2231;
+  background-color: #ebebeb;
 }
 
 .container {
@@ -103,11 +104,16 @@ h3, h4 {
   margin-bottom: 50px;
 }
 
+.curr-projects, .links {
+  margin: 0px 100px;
+}
+
 /* Boxes for CV etc*/
 .thumbnail {
   padding: 10px;
   border: none;
   border-radius: 0;
+  background-color: #ebebeb;
 }
 
 .thumbnail p {
